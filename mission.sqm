@@ -1,0 +1,586 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"A3_Characters_F_INDEP",
+		"a3_map_altis",
+		"A3_Structures_F_Mil_Helipads"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_INDEP",
+		"A3_Structures_F_Mil_Helipads",
+		"a3_map_altis"
+	};
+	randomSeed=6356695;
+	class Intel
+	{
+		resistanceWest=0;
+		startFog=0.59999996;
+		startWind=0;
+		startLightnings=1;
+		forecastWind=0;
+		forecastWaves=0;
+		forecastLightnings=1;
+		lightningsForced=1;
+		wavesForced=1;
+		windForced=1;
+		year=2035;
+		month=11;
+		day=3;
+		hour=0;
+		minute=10;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Groups
+	{
+		items=6;
+		class Item0
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3564.8394,12.678229,12910.83};
+					id=0;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="null = [this] execVM ""loadout.sqf"";   this addeventhandler [""respawn"",""_this execVM 'loadout.sqf'""]; this enableFatigue false; this setFatigue 0;";
+				};
+			};
+		};
+		class Item1
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3624.6367,12.695257,13013.46};
+					id=1;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="null = [this] execVM ""loadout.sqf"";   this addeventhandler [""respawn"",""_this execVM 'loadout.sqf'""]; this enableFatigue false; this setFatigue 0;";
+				};
+			};
+		};
+		class Item2
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3570.0515,9.2790718,13001.601};
+					id=2;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="null = [this] execVM ""loadout.sqf"";   this addeventhandler [""respawn"",""_this execVM 'loadout.sqf'""]; this enableFatigue false; this setFatigue 0;";
+				};
+			};
+		};
+		class Item3
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3544.8738,9.3641129,12953.814};
+					id=3;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="null = [this] execVM ""loadout.sqf"";   this addeventhandler [""respawn"",""_this execVM 'loadout.sqf'""]; this enableFatigue false; this setFatigue 0;";
+				};
+			};
+		};
+		class Item4
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3663.9106,15.929329,12985.672};
+					id=4;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="null = [this] execVM ""loadout.sqf"";   this addeventhandler [""respawn"",""_this execVM 'loadout.sqf'""]; this enableFatigue false; this setFatigue 0;";
+				};
+			};
+		};
+		class Item5
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3622.0676,14.378919,12912.624};
+					id=5;
+					side="GUER";
+					vehicle="I_Soldier_lite_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					init="null = [this] execVM ""loadout.sqf"";   this addeventhandler [""respawn"",""_this execVM 'loadout.sqf'""]; this enableFatigue false; this setFatigue 0;";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=1;
+		class Item0
+		{
+			position[]={3611.9673,13.76375,12957.782};
+			id=6;
+			side="EMPTY";
+			vehicle="Land_HelipadEmpty_F";
+			skill=0.60000002;
+			text="Center";
+		};
+	};
+	class Markers
+	{
+		items=51;
+		class Item0
+		{
+			position[]={3821.3333,21.600172,12855.466};
+			name="border";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="FDiagonal";
+			a=800;
+			b=20;
+			angle=-62.966099;
+		};
+		class Item1
+		{
+			position[]={3909.2637,18.372635,13692.936};
+			name="border_1";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="FDiagonal";
+			a=320;
+			b=20;
+			angle=24.744909;
+		};
+		class Item2
+		{
+			position[]={3423.9915,51.93375,12410.469};
+			name="border_2";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="FDiagonal";
+			a=200;
+			b=20;
+			angle=61.136959;
+		};
+		class Item3
+		{
+			position[]={3582.0039,9.9111319,13066.095};
+			name="center";
+			type="Empty";
+		};
+		class Item4
+		{
+			position[]={3570.9272,9.2622452,13018.759};
+			name="LIGHTSOURCE";
+			type="Empty";
+		};
+		class Item5
+		{
+			position[]={3562.4197,8.9089413,13003.594};
+			name="respawn_guerrila";
+			type="Empty";
+		};
+		class Item6
+		{
+			position[]={3626.6587,11.14465,13052.198};
+			name="respawn_guerrila_1";
+			type="Empty";
+		};
+		class Item7
+		{
+			position[]={3586.875,9.5789404,13108.191};
+			name="respawn_guerrila_2";
+			type="Empty";
+		};
+		class Item8
+		{
+			position[]={3546.874,9.7379122,12956.168};
+			name="respawn_guerrila_4";
+			type="Empty";
+		};
+		class Item9
+		{
+			position[]={3647.4377,15.690339,12929.662};
+			name="respawn_guerrila_5";
+			type="Empty";
+		};
+		class Item10
+		{
+			position[]={3663.7656,15.615224,12990.365};
+			name="respawn_guerrila_6";
+			type="Empty";
+		};
+		class Item11
+		{
+			position[]={3464.7278,4.7229843,12902.608};
+			name="respawn_guerrila_7";
+			type="Empty";
+		};
+		class Item12
+		{
+			position[]={3458.3059,4.6781311,12871.381};
+			name="respawn_guerrila_8";
+			type="Empty";
+		};
+		class Item13
+		{
+			position[]={3509.2534,9.6355724,12846.358};
+			name="respawn_guerrila_9";
+			type="Empty";
+		};
+		class Item14
+		{
+			position[]={3489.2695,4.7358799,13148.326};
+			name="respawn_guerrila_10";
+			type="Empty";
+		};
+		class Item15
+		{
+			position[]={3493.1699,2.9184189,13216.527};
+			name="respawn_guerrila_11";
+			type="Empty";
+		};
+		class Item16
+		{
+			position[]={3695.2166,11.389122,13189.639};
+			name="respawn_guerrila_12";
+			type="Empty";
+		};
+		class Item17
+		{
+			position[]={3721.3501,14.171942,13093.706};
+			name="respawn_guerrila_13";
+			type="Empty";
+		};
+		class Item18
+		{
+			position[]={3728.094,18.316183,13007.685};
+			name="respawn_guerrila_14";
+			type="Empty";
+		};
+		class Item19
+		{
+			position[]={3391.6846,4.283608,13119.634};
+			name="respawn_guerrila_15";
+			type="Empty";
+		};
+		class Item20
+		{
+			position[]={3418.8706,2.7252588,13210.104};
+			name="respawn_guerrila_16";
+			type="Empty";
+		};
+		class Item21
+		{
+			position[]={3468.1057,4.5837402,13146.798};
+			name="respawn_guerrila_17";
+			type="Empty";
+		};
+		class Item22
+		{
+			position[]={3430.002,5.1506481,13107.871};
+			name="respawn_guerrila_18";
+			type="Empty";
+		};
+		class Item23
+		{
+			position[]={3658.8652,10.551374,13228.319};
+			name="respawn_guerrila_19";
+			type="Empty";
+		};
+		class Item24
+		{
+			position[]={3762.6191,13.284845,13149.597};
+			name="respawn_guerrila_20";
+			type="Empty";
+		};
+		class Item25
+		{
+			position[]={3637.0222,10.08041,13153.105};
+			name="respawn_guerrila_21";
+			type="Empty";
+		};
+		class Item26
+		{
+			position[]={3587.8757,7.0876393,13177.656};
+			name="respawn_guerrila_22";
+			type="Empty";
+		};
+		class Item27
+		{
+			position[]={3580.075,3.2233617,13248.976};
+			name="respawn_guerrila_23";
+			type="Empty";
+		};
+		class Item28
+		{
+			position[]={3496.2136,2.5440061,13242.351};
+			name="respawn_guerrila_24";
+			type="Empty";
+		};
+		class Item29
+		{
+			position[]={3491.5332,2.108228,13308.212};
+			name="respawn_guerrila_25";
+			type="Empty";
+		};
+		class Item30
+		{
+			position[]={3633.4045,7.1872611,13330.55};
+			name="respawn_guerrila_26";
+			type="Empty";
+		};
+		class Item31
+		{
+			position[]={3555.9133,4.4554396,13357.927};
+			name="respawn_guerrila_27";
+			type="Empty";
+		};
+		class Item32
+		{
+			position[]={3555.6882,11.561251,12849.575};
+			name="respawn_guerrila_28";
+			type="Empty";
+		};
+		class Item33
+		{
+			position[]={3611.8391,14.120431,12811.588};
+			name="respawn_guerrila_29";
+			type="Empty";
+		};
+		class Item34
+		{
+			position[]={3682.6125,17.521233,12885.222};
+			name="respawn_guerrila_30";
+			type="Empty";
+		};
+		class Item35
+		{
+			position[]={3505.3867,7.3502293,12749.642};
+			name="respawn_guerrila_31";
+			type="Empty";
+		};
+		class Item36
+		{
+			position[]={3548.6694,11.045034,12696.463};
+			name="respawn_guerrila_32";
+			type="Empty";
+		};
+		class Item37
+		{
+			position[]={3464.4431,4.7402296,12784.708};
+			name="respawn_guerrila_33";
+			type="Empty";
+		};
+		class Item38
+		{
+			position[]={3482.5752,7.2470984,12689.449};
+			name="respawn_guerrila_34";
+			type="Empty";
+		};
+		class Item39
+		{
+			position[]={3501.2859,12.288355,12602.565};
+			name="respawn_guerrila_35";
+			type="Empty";
+		};
+		class Item40
+		{
+			position[]={3359.8147,3.3261907,13175.426};
+			name="respawn_guerrila_36";
+			type="Empty";
+		};
+		class Item41
+		{
+			position[]={3664.4932,10.426723,13100.313};
+			name="respawn_guerrila_37";
+			type="Empty";
+		};
+		class Item42
+		{
+			position[]={3624.8635,4.6598053,13559.527};
+			name="respawn_guerrila_38";
+			type="Empty";
+		};
+		class Item43
+		{
+			position[]={3702.6558,11.478732,13526.802};
+			name="respawn_guerrila_39";
+			type="Empty";
+		};
+		class Item44
+		{
+			position[]={3820.2217,15.000359,13581.15};
+			name="respawn_guerrila_40";
+			type="Empty";
+		};
+		class Item45
+		{
+			position[]={3816.7122,14.939573,13624.98};
+			name="respawn_guerrila_41";
+			type="Empty";
+		};
+		class Item46
+		{
+			position[]={3931.3533,16.312532,13550.763};
+			name="respawn_guerrila_42";
+			type="Empty";
+		};
+		class Item47
+		{
+			position[]={3907.3723,16.201906,13595.761};
+			name="respawn_guerrila_43";
+			type="Empty";
+		};
+		class Item48
+		{
+			position[]={3875.7871,16.032379,13617.968};
+			name="respawn_guerrila_44";
+			type="Empty";
+		};
+		class Item49
+		{
+			position[]={3713.1841,11.15323,13477.129};
+			name="respawn_guerrila_45";
+			type="Empty";
+		};
+		class Item50
+		{
+			position[]={3668.7312,8.8469725,13487.063};
+			name="respawn_guerrila_46";
+			type="Empty";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=4546709;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=7130241;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=10710668;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};

@@ -1,0 +1,5 @@
+respawn = "BASE";
+respawnDelay = 3;
+respawnTable = 0;
+respawnOnStart = 1;
+respawnButton = 1;
